@@ -44,7 +44,7 @@ function App() {
   else if (normalMap) return (
   // <MapaSVG />
   <SVG
-        src="https://drive.google.com/file/d/1L6D-wkPkmG0XuAyUYdipX3ydGpDt2PEU/view?usp=sharing"
+        src="https://drive.google.com/uc?id=1L6D-wkPkmG0XuAyUYdipX3ydGpDt2PEU"
         width={128}
         cacheRequests={true}
         height="auto"
