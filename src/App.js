@@ -1,4 +1,5 @@
 import React from "react";
+import SVG from 'react-inlinesvg';
 import './App.css';
 import Mapa from "./Mapa.svg"
 import {ReactComponent as MapaSVG} from "./Mapa.svg"
@@ -41,7 +42,15 @@ function App() {
   )
 
   else if (normalMap) return (
-  <MapaSVG />
+  // <MapaSVG />
+  <SVG
+        src="https://drive.google.com/file/d/1L6D-wkPkmG0XuAyUYdipX3ydGpDt2PEU/view?usp=sharing"
+        width={128}
+        cacheRequests={true}
+        height="auto"
+        title="React"
+        loader={<span>Loading...</span>}
+      />
   )
 
   return <div>Nothing here...</div>
